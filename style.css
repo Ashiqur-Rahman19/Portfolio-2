@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
 html{
     scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
 }
 
 .hr-style{
@@ -25,7 +34,7 @@ header.container{
 }
 
 .navbar{
-    background-color: rgba(12, 21, 23, .8);
+    background-color:#30336b;
 }
 
 .navbar-nav li {
@@ -54,7 +63,7 @@ header.container{
 
 .banner-contents h1{
     font-size: 3.5rem;
-    background-color: rgba(100, 102, 253, 0.8);
+    background-color: #30336b;
     padding: 10px 50px;
     border-radius: 5px;
 }
@@ -66,7 +75,7 @@ header.container{
 
 /* Features starts here */
 #features{
-    background-color:rgba(100, 102, 253, 0.8);
+    background-color:#30336b;
     padding: 3% 7%;
    
 }
@@ -82,7 +91,7 @@ header.container{
 .features-col:hover{
    background-color: white;
    color: rgb(0, 0, 0);
-   border: 1px solid rgba(100, 102, 253, 0.8);
+   border: 1px solid #30336b;
    transform: scale(1.1);
    
 }
@@ -90,7 +99,7 @@ header.container{
     color: #6b6b6b;
 }
 .features-col:hover .icon-style{
-    background-color: rgba(100, 102, 253, 0.8);
+    background-color: #30336b;
     color: white;
  }
  
@@ -98,7 +107,7 @@ header.container{
 
 .icon-style{
     background-color: white;
-    color: rgba(100, 102, 253, 0.8);
+    color: #30336b;
     padding: 15px;
     transition: .5s;
 }
@@ -110,7 +119,7 @@ section.container{
 }
 
 #about-me{
-    background-color:rgba(100, 102, 253, 0.8) ;
+    background-color:#30336b ;
     padding-bottom: 5%;
 }
 
@@ -133,15 +142,18 @@ section.container{
 .about-des span{
     font-weight: bolder;
     margin-right: 5px;
-    color: black;
+    color: white;
+  
 }
 .about-des a{
     text-decoration: none;
-    color: rgb(109, 0, 0);
+    color: rgb(253, 130, 130);
+    font-weight: 600;
 }
 
 .about-des p{
     margin-bottom: 0;
+    color: rgb(204, 204, 204);
 }
 
 .btn{
@@ -153,22 +165,23 @@ section.container{
 
 .btn:hover{
     background-color: white !important;
-    color: rgba(100, 102, 253, 0.8) !important;
+    color: #e056fd !important;
 }
 
 .skills{
     padding: 0% 10%;
+    color: white;
 }
 
 table i{
-    color: rgb(8, 2, 94);
+    color: white;
 }
 
 /* About me ends here */
 
 /* Tutorial starts here */
 #tutorial{
-    background-color: rgb(85, 130, 255);
+    background-color: #30336b;
     padding-bottom: 50px;
 }
 
@@ -189,8 +202,16 @@ table i{
 /* Feedback starts here */
 
 #feedback{
-    background-color:  rgba(100, 102, 253, 0.8);  
+    background-color: #30336b;  
     padding: 50px 0;
+}
+
+#feedback p{
+    color: white;
+}
+
+.carousel-item h6{
+    color: white;
 }
 .feedback-title{
     color: white;
@@ -206,7 +227,7 @@ table i{
 
 /* Contact starts here */
 #contact{
-    background-color:  rgb(85, 130, 255);
+    background-color:  #30336b;
     padding: 50px 10%;
 }
 
